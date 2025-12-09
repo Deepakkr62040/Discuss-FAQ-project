@@ -1,0 +1,130 @@
+.nav-bar {
+    box-shadow: 0 4px 8px 0 rgba(44, 162, 11, 0.2), 0 6px 20px 0 rgba(177, 32, 162, 0.19);
+    margin-bottom: 30px;
+    color: #3835f1;
+    background-color: rgb(181, 215, 233) !important;
+    height: 80px;
+    width: 100%;
+}
+.logo {
+    border-radius: 50%;
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-item {
+    margin: 0;
+}
+a {
+    color: rgb(56, 3, 130) !important;
+    font-size: 1.2rem;
+}
+.heading {
+    text-align: center;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+
+.question-list {
+    border: 0.2px solid #c327d1;
+    padding: 15px;
+    margin: 10px 0px 5px 0px;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+.question-list h4{
+    margin: 0;
+    padding: 0;
+}
+.question-list a,.question-title {
+    font-size: 18px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.answer-wrapper {
+    /* border-bottom: 1px solid yellow;
+    margin-bottom: 10px;
+    padding: 5px; */
+    border: #3277b4;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 0px 10px 0px;
+}
+
+.my-question {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background: linear-gradient(to right, rgb(203, 238, 238), rgb(224, 171, 180));
+}
+
+/* .footer {
+    height: 50px;
+    background-color: #5d5d5d;
+    margin-top: 35px; 
+    border-top: 1px solid #ccc;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+} */
+
+.footer {
+    height: 50px;
+    background-color: #5d5d5d;
+    margin-top: 35px; 
+    border-top: 1px solid #ccc;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"], .desc {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #110f0e;
+    background: transparent;   /* transparent background */
+    color: #000;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+.desc:focus {
+    background: transparent;     /* focus me bhi transparent */
+    border-color: #007bff;       /* border highlight */
+    outline: none;
+}
+
+/* ignore this code */
+/* i will fixed it later */
+.fit-login {
+    height: 375px;
+}
+.fit-signup {
+    height: 185px;
+}
+.fit-ask {
+    height: 256px;
+}
+.fit-que {
+    height: 196px;
+}
