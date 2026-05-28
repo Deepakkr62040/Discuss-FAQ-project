@@ -1,2 +1,2 @@
 # Discuss-FAQ-project
-Mini project
+Mini Java project
